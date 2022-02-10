@@ -1,12 +1,11 @@
-import ReactDOM from 'react-dom';
-import EventComponent from './events/EventComponent';
+import ReactDOM from "react-dom";
 
 const App = () => {
   return (
     <div>
-      <EventComponent />
+      <h1>Hi there!</h1>
     </div>
   );
 };
 
-ReactDOM.render(<App />, document.querySelector('#root'));
+ReactDOM.render(<App />, document.querySelector("#root"));
